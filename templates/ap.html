@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+	<title>House Price Prediction</title>
+	<style>
+		body {
+			background-image: url("/static/BC.jpg");
+			background-size: cover;
+		}
+        form {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>House Price Prediction</h1>
+	<form action="{{ url_for('predict') }}" method="post">
+		<label for="location" style="color: black; font-size: 18px;font-weight:bold;">Locations:</label>
+		<select name="location" id="location">
+			{% for location in locations %}
+			<option value="{{ location }}">{{ location.capitalize() }}</option>
+			{% endfor %}
+		</select>
+		<br><br>
+        <label for="sqft" style="color: black; font-size: 18px;font-weight:bold;">Total square feet area:</label>
+		<input type="number" name="sqft" id="sqft" required>
+		<br><br>
+		<label for="bath" style="color:black; font-size: 18px;font-weight:bold;">Number Of Bathrooms:</label>
+		<input type="number" name="bath" id="bath" required>
+		<br><br>
+		<label for="bhk_size" style="color: black; font-size: 18px;font-weight:bold;">Number Of  BHK:</label>
+		<input type="number" name="bhk_size" id="bhk_size" required>
+		<br><br>
+		<input type="submit" value="Predict">
+	</form>
+    <form action="{{ url_for('predict') }}" method="post" style="margin: auto; width: 50%;">
+
+	{% if prediction_text %}
+    <p style="text-align: center;font-size: 30px; color: white;font-weight:bold;">{{ prediction_text }}</p>
+	
+	{% endif %}
+</body>
+</html>
