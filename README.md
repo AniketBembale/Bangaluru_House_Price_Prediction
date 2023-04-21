@@ -28,5 +28,5 @@ These dependencies can be installed using pip:
 pip install scikit-learn pandas flask
 
 
-# Credits
-This project was developed by [Your Name Here]. The dataset used for training the model was obtained from [Source of Dataset], and the Flask web application was built using the Flask Mega-Tutorial as a guide.
+# Dataset Credits
+ The dataset used for training the model was obtained from Kaggle.
