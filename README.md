@@ -17,7 +17,7 @@ The model was trained using a dataset of house prices and features. The dataset 
 Hyperparameter tuning was performed using GridSearchCV to select the best combination of parameters for the model. The final model achieved an accuracy of XX% on the test set.
 
 
-#Dependencies
+# Dependencies
 The following dependencies are required to run the application:
 
 Python 3.7 or later
