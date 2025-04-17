@@ -1,0 +1,76 @@
+2025-04-17 15:28:21,449 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 15:28:21,457 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 15:28:21,457 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 15:28:21,484 - data_preprocessing - ERROR - Error during preprocessing: 'float' object has no attribute 'split'
+2025-04-17 15:28:21,484 - data_preprocessing - ERROR - Failed to complete the data ingestion process: 'float' object has no attribute 'split'
+2025-04-17 15:30:12,402 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 15:30:12,413 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 15:30:12,413 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 15:30:12,432 - data_preprocessing - WARNING - Error converting total_sqft "34.46Sq. Meter": could not convert string to float: '34.46Sq. Meter'
+2025-04-17 15:30:12,432 - data_preprocessing - WARNING - Error converting total_sqft "4125Perch": could not convert string to float: '4125Perch'
+2025-04-17 15:30:12,432 - data_preprocessing - WARNING - Error converting total_sqft "1000Sq. Meter": could not convert string to float: '1000Sq. Meter'
+2025-04-17 15:30:12,433 - data_preprocessing - WARNING - Error converting total_sqft "1100Sq. Yards": could not convert string to float: '1100Sq. Yards'
+2025-04-17 15:30:12,433 - data_preprocessing - WARNING - Error converting total_sqft "5.31Acres": could not convert string to float: '5.31Acres'
+2025-04-17 15:30:12,433 - data_preprocessing - WARNING - Error converting total_sqft "30Acres": could not convert string to float: '30Acres'
+2025-04-17 15:30:12,433 - data_preprocessing - WARNING - Error converting total_sqft "716Sq. Meter": could not convert string to float: '716Sq. Meter'
+2025-04-17 15:30:12,435 - data_preprocessing - WARNING - Error converting total_sqft "1500Sq. Meter": could not convert string to float: '1500Sq. Meter'
+2025-04-17 15:30:12,435 - data_preprocessing - WARNING - Error converting total_sqft "142.61Sq. Meter": could not convert string to float: '142.61Sq. Meter'
+2025-04-17 15:30:12,435 - data_preprocessing - WARNING - Error converting total_sqft "1574Sq. Yards": could not convert string to float: '1574Sq. Yards'
+2025-04-17 15:30:12,436 - data_preprocessing - WARNING - Error converting total_sqft "361.33Sq. Yards": could not convert string to float: '361.33Sq. Yards'
+2025-04-17 15:30:12,438 - data_preprocessing - WARNING - Error converting total_sqft "117Sq. Yards": could not convert string to float: '117Sq. Yards'
+2025-04-17 15:30:12,438 - data_preprocessing - WARNING - Error converting total_sqft "3040Sq. Meter": could not convert string to float: '3040Sq. Meter'
+2025-04-17 15:30:12,438 - data_preprocessing - WARNING - Error converting total_sqft "500Sq. Yards": could not convert string to float: '500Sq. Yards'
+2025-04-17 15:30:12,439 - data_preprocessing - WARNING - Error converting total_sqft "167Sq. Meter": could not convert string to float: '167Sq. Meter'
+2025-04-17 15:30:12,439 - data_preprocessing - WARNING - Error converting total_sqft "315Sq. Yards": could not convert string to float: '315Sq. Yards'
+2025-04-17 15:30:12,440 - data_preprocessing - WARNING - Error converting total_sqft "3Cents": could not convert string to float: '3Cents'
+2025-04-17 15:30:12,440 - data_preprocessing - WARNING - Error converting total_sqft "188.89Sq. Yards": could not convert string to float: '188.89Sq. Yards'
+2025-04-17 15:30:12,441 - data_preprocessing - WARNING - Error converting total_sqft "204Sq. Meter": could not convert string to float: '204Sq. Meter'
+2025-04-17 15:30:12,442 - data_preprocessing - WARNING - Error converting total_sqft "45Sq. Yards": could not convert string to float: '45Sq. Yards'
+2025-04-17 15:30:12,442 - data_preprocessing - WARNING - Error converting total_sqft "133.3Sq. Yards": could not convert string to float: '133.3Sq. Yards'
+2025-04-17 15:30:12,442 - data_preprocessing - WARNING - Error converting total_sqft "78.03Sq. Meter": could not convert string to float: '78.03Sq. Meter'
+2025-04-17 15:30:12,443 - data_preprocessing - WARNING - Error converting total_sqft "122Sq. Yards": could not convert string to float: '122Sq. Yards'
+2025-04-17 15:30:12,443 - data_preprocessing - WARNING - Error converting total_sqft "84.53Sq. Meter": could not convert string to float: '84.53Sq. Meter'
+2025-04-17 15:30:12,444 - data_preprocessing - WARNING - Error converting total_sqft "2.09Acres": could not convert string to float: '2.09Acres'
+2025-04-17 15:30:12,444 - data_preprocessing - WARNING - Error converting total_sqft "24Guntha": could not convert string to float: '24Guntha'
+2025-04-17 15:30:12,445 - data_preprocessing - WARNING - Error converting total_sqft "697Sq. Meter": could not convert string to float: '697Sq. Meter'
+2025-04-17 15:30:12,445 - data_preprocessing - WARNING - Error converting total_sqft "142.61Sq. Meter": could not convert string to float: '142.61Sq. Meter'
+2025-04-17 15:30:12,445 - data_preprocessing - WARNING - Error converting total_sqft "1500Cents": could not convert string to float: '1500Cents'
+2025-04-17 15:30:12,446 - data_preprocessing - WARNING - Error converting total_sqft "132Sq. Yards": could not convert string to float: '132Sq. Yards'
+2025-04-17 15:30:12,446 - data_preprocessing - WARNING - Error converting total_sqft "2Acres": could not convert string to float: '2Acres'
+2025-04-17 15:30:12,446 - data_preprocessing - WARNING - Error converting total_sqft "1100Sq. Meter": could not convert string to float: '1100Sq. Meter'
+2025-04-17 15:30:12,446 - data_preprocessing - WARNING - Error converting total_sqft "15Acres": could not convert string to float: '15Acres'
+2025-04-17 15:30:12,447 - data_preprocessing - WARNING - Error converting total_sqft "1.26Acres": could not convert string to float: '1.26Acres'
+2025-04-17 15:30:12,447 - data_preprocessing - WARNING - Error converting total_sqft "151.11Sq. Yards": could not convert string to float: '151.11Sq. Yards'
+2025-04-17 15:30:12,448 - data_preprocessing - WARNING - Error converting total_sqft "1Grounds": could not convert string to float: '1Grounds'
+2025-04-17 15:30:12,448 - data_preprocessing - WARNING - Error converting total_sqft "2940Sq. Yards": could not convert string to float: '2940Sq. Yards'
+2025-04-17 15:30:12,448 - data_preprocessing - WARNING - Error converting total_sqft "45.06Sq. Meter": could not convert string to float: '45.06Sq. Meter'
+2025-04-17 15:30:12,448 - data_preprocessing - WARNING - Error converting total_sqft "1.25Acres": could not convert string to float: '1.25Acres'
+2025-04-17 15:30:12,448 - data_preprocessing - WARNING - Error converting total_sqft "86.72Sq. Meter": could not convert string to float: '86.72Sq. Meter'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "38Guntha": could not convert string to float: '38Guntha'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "6Acres": could not convert string to float: '6Acres'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "120Sq. Yards": could not convert string to float: '120Sq. Yards'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "24Sq. Meter": could not convert string to float: '24Sq. Meter'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "142.84Sq. Meter": could not convert string to float: '142.84Sq. Meter'
+2025-04-17 15:30:12,450 - data_preprocessing - WARNING - Error converting total_sqft "300Sq. Yards": could not convert string to float: '300Sq. Yards'
+2025-04-17 15:30:13,176 - data_preprocessing - INFO - Data preprocessing completed successfully.
+2025-04-17 15:30:13,505 - data_preprocessing - DEBUG - Train and test data saved to ./data\raw
+2025-04-17 15:42:48,102 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 15:42:48,130 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 15:42:48,130 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 15:42:48,952 - data_preprocessing - INFO - Data preprocessing completed successfully.
+2025-04-17 15:42:49,280 - data_preprocessing - DEBUG - Train and test data saved to ./data\raw
+2025-04-17 17:24:53,357 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 17:24:53,410 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 17:24:53,410 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 17:24:55,332 - data_preprocessing - INFO - Data preprocessing completed successfully.
+2025-04-17 17:24:56,083 - data_preprocessing - DEBUG - Train and test data saved to ./data\raw
+2025-04-17 17:25:49,484 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 17:25:49,497 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 17:25:49,497 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 17:25:50,589 - data_preprocessing - INFO - Data preprocessing completed successfully.
+2025-04-17 17:25:51,313 - data_preprocessing - DEBUG - Train and test data saved to ./data\raw
+2025-04-17 17:51:03,210 - data_preprocessing - DEBUG - Parameters retrieved from params.yaml
+2025-04-17 17:51:03,239 - data_preprocessing - DEBUG - Data loaded from data/raw/raw_data.csv
+2025-04-17 17:51:03,239 - data_preprocessing - INFO - Starting data preprocessing...
+2025-04-17 17:51:04,603 - data_preprocessing - INFO - Data preprocessing completed successfully.
+2025-04-17 17:51:05,560 - data_preprocessing - DEBUG - Train and test data saved to ./data\raw

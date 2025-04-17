@@ -1,0 +1,9 @@
+2025-04-17 14:08:32,115 - data_ingestion - DEBUG - Data loaded from Bengaluru_House_Data.csv
+2025-04-17 14:08:32,161 - data_ingestion - DEBUG - Raw data saved to ./data\raw\raw_data.csv
+2025-04-17 16:57:13,144 - data_ingestion - DEBUG - Data loaded from Bengaluru_House_Data.csv
+2025-04-17 16:57:13,215 - data_ingestion - DEBUG - Raw data saved to ./data\raw\raw_data.csv
+2025-04-17 17:21:41,746 - data_ingestion - DEBUG - Data loaded from Bengaluru_House_Data.csv
+2025-04-17 17:21:41,822 - data_ingestion - DEBUG - Raw data saved to ./data\raw\raw_data.csv
+2025-04-17 17:24:50,018 - data_ingestion - DEBUG - Data loaded from Bengaluru_House_Data.csv
+2025-04-17 17:24:50,103 - data_ingestion - DEBUG - Raw data saved to ./data\raw\raw_data.csv
+2025-04-17 17:25:55,972 - data_ingestion - DEBUG - Parameters retrieved from params.yaml

@@ -1,0 +1,55 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/Data_ingestion.py
+    deps:
+    - path: src/Data_ingestion.py
+      hash: md5
+      md5: f8fdff7c915dab0a9e7cb7d14c647183
+      size: 2116
+    outs:
+    - path: data/raw/raw_data.csv
+      hash: md5
+      md5: 788d78998c65072dcdac53e236189b32
+      size: 1011382
+  data_preprocessing:
+    cmd: python src/Data_preprocessing.py
+    deps:
+    - path: data/raw/raw_data.csv
+      hash: md5
+      md5: 788d78998c65072dcdac53e236189b32
+      size: 1011382
+    - path: src/Data_preprocessing.py
+      hash: md5
+      md5: 87e1adab73714c4df6d2fd7417398852
+      size: 7004
+    outs:
+    - path: data/raw/test.csv
+      hash: md5
+      md5: 3380629d1e9e3416f4027def41187941
+      size: 1995616
+    - path: data/raw/train.csv
+      hash: md5
+      md5: 76bb6566fc10efa30f39d39f4006ce1a
+      size: 4651648
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+    - path: params.yaml
+      hash: md5
+      md5: 945f270718230dca630ccffca9a7bb7f
+      size: 523
+    - path: src/model_building.py
+      hash: md5
+      md5: da3ad6528ba7501487ac45f6de432252
+      size: 5202
+    outs:
+    - path: logs/model_building.log
+      hash: md5
+      md5: 4c1b3f0aa186fed171add33891c8640c
+      size: 1849
+    - path: models/
+      hash: md5
+      md5: c1a7f969b6c01f658ba7bf6af00b3e4d.dir
+      size: 19865151
+      nfiles: 7

@@ -14,7 +14,7 @@ Once the application is running, you can input the features of a house (such as 
 
 # Model Details
 The model was trained using a dataset of house prices and features. The dataset was preprocessed using Pandas to clean and transform the data, and Scikit-learn was used to split the data into training and testing sets, perform feature scaling, and train the regression model.
-Hyperparameter tuning was performed using GridSearchCV to select the best combination of parameters for the model. The final model achieved an accuracy of XX% on the test set.
+Hyperparameter tuning was performed using GridSearchCV to select the best combination of parameters for the model. The final model achieved an accuracy of 84% on the test set.
 
 
 # Dependencies

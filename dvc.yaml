@@ -1,0 +1,26 @@
+stages:
+  data_ingestion:
+    cmd: python src/Data_ingestion.py
+    deps:
+      - src/Data_ingestion.py
+    outs:
+      - data/raw/raw_data.csv
+
+  data_preprocessing:
+    cmd: python src/Data_preprocessing.py
+    deps:
+      - src/Data_preprocessing.py
+      - data/raw/raw_data.csv
+
+    outs:
+      - data/raw/train.csv
+      - data/raw/test.csv
+
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+      - src/model_building.py
+      - params.yaml
+    outs:
+      - models/
+      - logs/model_building.log
